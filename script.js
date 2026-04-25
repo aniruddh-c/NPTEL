@@ -27,6 +27,12 @@ function startTest(mode) {
   currentQuestions = shuffle(filtered).map(q => shuffleOptions(q));
 
   renderQuiz();
+
+  history.pushState({ quiz: true }, "", "#quiz");
+
+  window.onpopstate = function () {
+  document.getElementById("quiz").innerHTML = "";
+};
 }
 
 function renderQuiz() {
@@ -105,4 +111,16 @@ function submitQuiz() {
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("sw.js");
 }
+
+window.addEventListener("load", () => {
+  history.replaceState({}, "", "");
+});
+
+window.onpopstate = function () {
+  if (confirm("Exit test? Your progress will be lost.")) {
+    document.getElementById("quiz").innerHTML = "";
+  } else {
+    history.pushState({ quiz: true }, "", "#quiz");
+  }
+};
 
