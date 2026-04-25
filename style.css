@@ -1,0 +1,143 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+
+  /* Soft gradient background */
+  background: linear-gradient(135deg, #eef2f7, #dfe9f3);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* ===== MODE SECTION (UPDATED) ===== */
+
+.mode-container {
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+/* Full Test button (top) */
+.full-test {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.full-test button {
+  padding: 14px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  background: #ff7a18;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.full-test button:hover {
+  background: #e66810;
+}
+
+/* Weekly grid (4 rows × 3 columns) */
+.week-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+/* Week buttons */
+.week-grid button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #4a6cf7;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.week-grid button:hover {
+  background: #3a56d4;
+}
+
+/* ===== QUESTIONS ===== */
+
+.question {
+  background: white;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Options */
+label {
+  display: block;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* Result coloring */
+.correct {
+  color: green;
+  font-weight: bold;
+}
+
+.wrong {
+  color: red;
+  font-weight: bold;
+}
+
+/* ===== SUBMIT SECTION ===== */
+
+.submit-box {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.submit-box button {
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+.submit-box button:hover {
+  background: #218838;
+}
+
+#score {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+label:hover {
+  background: #f5f7ff;
+  border-radius: 5px;
+}
+
+.question p {
+  white-space: pre-line;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  .question {
+    font-size: 14px;
+  }
+
+  button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
