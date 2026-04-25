@@ -40,7 +40,7 @@ III. Establishment of Vedanta College, which combined Western knowledge with Ind
     "I, III, II",
     "III, I, II"
   ],
-  correct: 0
+  correct: 1
 },
 {
   id: 4,
