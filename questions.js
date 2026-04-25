@@ -648,7 +648,7 @@ Statement II: Gandhi argued that increasing use of technology could result in ma
     "It blesses the one who uses it but punishes the one against whom it is used.",
     "It requires the sacrifice of others for the common good."
   ],
-  correct: 2
+  correct: 0
 }
 ,
 /* ================= WEEK 6 ================= */
