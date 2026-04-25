@@ -605,24 +605,24 @@ Statement II: Gandhi argued that increasing use of technology could result in ma
 {
   id: 47,
   test: 5,
-  question: "The Gandhian concept of Trusteeship serves as:",
+  question: "The Gandhian concept of Trusteeship is not merely an economic policy for wealth distribution but also serves as a necessary ethical practice for the rich towards:",
   options: [
-    "A tool for political control.",
-    "A method for total renunciation.",
-    "An ethical practice for wealth redistribution where the rich act as trustees.",
-    "A mechanism for industrial capitalism."
+    "Achieving political power by controlling community resources.",
+    "Fulfilling the mandate of Aparigraha (non-possession) completely.",
+    "Walking the ‘path of ethical development’ by holding excess property as a trust for the underprivileged.",
+    "Mobilising capital for the creation of self-sufficient village industries."
   ],
   correct: 2
 },
 {
   id: 48,
   test: 5,
-  question: "Which of the following statements is not correct regarding Gandhi’s vision of future India?",
+  question: "From the following statements, choose the one that is not correct regarding Mahatma Gandhi’s vision for future India.",
   options: [
-    "India as a spiritually enlightened society.",
-    "Self-purification leads to spiritual emancipation.",
-    "Spiritual society is egalitarian.",
-    "Centralized polity with modern technology is necessary."
+    "Mahatma Gandhi envisioned India as a spiritually enlightened society.",
+    "Mahatma Gandhi argued that self-purification could bring spiritual emancipation and lead to a spiritually enlightened society.",
+    "In the vision of Mahatma Gandhi, a spiritually enlightened society will be an egalitarian society.",
+    "Mahatma Gandhi held that a centralised polity with modern technologies is a prerequisite for the existence of a spiritually enlightened society."
   ],
   correct: 3
 },
@@ -631,22 +631,22 @@ Statement II: Gandhi argued that increasing use of technology could result in ma
   test: 5,
   question: "Gandhi rejected the utilitarian principle of ‘greatest good of the greatest number’ because:",
   options: [
-    "It ignores moral purity.",
-    "It promotes materialism.",
-    "It sacrifices the minority for the majority.",
-    "It neglects Swaraj."
+    "The moral purity of the action rather than the consequence.",
+    "The spiritual liberation of every individual, irrespective of their material condition.",
+    "To strive for the 'greatest good of all' and not accept the sacrifice of a minority for the majority.",
+    "To prioritize individual Swaraj (self-rule) over collective economic welfare."
   ],
   correct: 2
 },
 {
   id: 50,
   test: 5,
-  question: "The supreme merit of passive resistance, according to Gandhi, is:",
+  question: "In defining ‘passive resistance’, Gandhi contrasts it with 'brute force'. The supreme merit of passive resistance, in his view, is that:",
   options: [
-    "Political efficiency.",
-    "Spiritual superiority.",
-    "It produces results without bloodshed.",
-    "It enforces obedience."
+    "It is a political tool that produces far-reaching results without drawing a drop of blood.",
+    "It is a method adopted by the spiritually superior Indian civilisation against the violent Europeans.",
+    "It blesses the one who uses it but punishes the one against whom it is used.",
+    "It requires the sacrifice of others for the common good."
   ],
   correct: 2
 }
