@@ -31,12 +31,12 @@ const questions = [
   test: 1,
   question: "Identify the correct chronological order of the following educational institutions/initiatives associated with Raja Ram Mohan Roy, as discussed in the lecture:\n1. Foundation of the Anglo-Hindu School.\nII. Supporting David Hare's proposal for the establishment of Hindu College.\nIII. Establishment of Vedanta College, which combined Western knowledge with Indian learning.",
   options: [
-    "1, II, III",
-    ", , III",
-    ", , II",
-    "II, I, III"
+    "I, II, III",
+    "II, I, III",
+    "I, III, II",
+    "III, I, II"
   ],
-  correct: 3
+  correct: 1
 },
 {
   id: 4,
@@ -291,7 +291,7 @@ const questions = [
   options: [
     "Only Statement-II is correct.",
     "Only Statement-I is correct.",
-    "Both Statement-1 & Statement-II are correct.",
+    "Both Statement-I & Statement-II are correct.",
     "Neither Statement-I nor Statement-II are correct."
   ],
   correct: 1
@@ -657,9 +657,9 @@ const questions = [
   test: 6,
   question: "Read the following two statements and choose the correct option from below-\nStatement I- Muhammad Iqbal tried to find a spiritual expression of anticolonialism in religion.\nStatement II-Through religion, Iqbal searched for an alternate path of development distinct from the West.",
   options: [
-    "Only Statement-I is correct.",
+    "Only Statement I is correct.",
     "Only Statement II is correct.",
-    "Both Statements -1 &ll are correct.",
+    "Both Statements I & II are correct.",
     "Neither Statement-I nor Statement II is correct."
   ],
   correct: 2
@@ -682,7 +682,7 @@ const questions = [
   question: "For Iqbal, the 'inner cohesion' of the ideal Islamic community (Millat) consists not in ethnic or geographic unity, but primarily in the:",
   options: [
     "Unity of social traditions and language.",
-    "Unity of the religious and political ideal, or in the psychological fact of 'like-mindedness .",
+    "Unity of the religious and political ideal, or in the psychological fact of 'like-mindedness' .",
     "Dominance of a single, uniform Islamic law over all races.",
     "Historical differences in nationality."
   ],
@@ -756,10 +756,10 @@ const questions = [
   test: 7,
   question: "Read the following two statements and choose the correct option from below-\n1. Savarkar did not negate the right of minorities to co-exist, but he made it conditional on the ground of their acceptance of Hindu dominance.\nII. Savarkar supported preferential treatment to those minorities who accepted his condition of accepting the domination of Hindus.",
   options: [
-    "Only the statement I) is correct.",
-    "Only the statement II) is correct.",
-    "Both ( &II) statements are correct",
-    "Both (I & II) statements are incorrect."
+    "Only the statement I is correct.",
+    "Only the statement II is correct.",
+    "Both Statement I & Statement II are correct",
+    "Both Statement I & II are incorrect."
   ],
   correct: 0
 },
@@ -1234,10 +1234,10 @@ const questions = [
   test: 11,
   question: "Ramabai's shift in thought regarding the role of Shastras in women's emancipation, as evidenced between Stri Dharma Niti (1882) and her later views, primarily signifies a transition from:",
   options: [
-    "Advocating for a reformist reading of Shastras to completely dismissing their relevance. [cite: 2734, 2735]",
-    "Initially emphasizing Shastric education for domestic virtues to later critiquing their foundational role in patriarchal oppression. [cite: 2734, 2736]",
-    "A belief that Shastras inherently provided liberation to an understanding that only Bhakti could achieve it. [cite: 2734, 2738]",
-    "Endorsing contemporary male reformers' interpretations to developing a uniquely indigenous feminist critique of Western education. [cite: 2734, 2740]"
+    "Advocating for a reformist reading of Shastras to completely dismissing their relevance.",
+    "Initially emphasizing Shastric education for domestic virtues to later critiquing their foundational role in patriarchal oppression.",
+    "A belief that Shastras inherently provided liberation to an understanding that only Bhakti could achieve it.",
+    "Endorsing contemporary male reformers' interpretations to developing a uniquely indigenous feminist critique of Western education."
   ],
   correct: 1
 },
@@ -1246,10 +1246,10 @@ const questions = [
   test: 11,
   question: "From the following statements, choose the one that is not correct regarding Lohia's 'principle of immediacy'.",
   options: [
-    "Each action has an ethical justification intrinsic to itself. [cite: 2745, 2747]",
-    "The ethical justification of each action is based on the present and not on the distant future. [cite: 2745, 2748]",
-    "The principle of immediacy would save people from the politics of greed or fear. [cite: 2745, 2749]",
-    "Human actions can only be justified in relation to their future implications, not their present ramifications [cite: 2745, 2750]"
+    "Each action has an ethical justification intrinsic to itself.",
+    "The ethical justification of each action is based on the present and not on the distant future.",
+    "The principle of immediacy would save people from the politics of greed or fear.",
+    "Human actions can only be justified in relation to their future implications, not their present ramifications"
   ],
   correct: 3
 },
@@ -1258,10 +1258,10 @@ const questions = [
   test: 11,
   question: "Ramabai's argument in The High-Caste Hindu Woman concerning the practice of Sati introduces a key historiographical perspective by:",
   options: [
-    "Directly blaming the British colonial administration for encouraging the practice. [cite: 2755, 2757]",
-    "Locating the justification for Sati within the inherent flaws of the Varna system. [cite: 2755, 2758]",
-    "Drawing upon the philological work of Max Muller to argue that the practice is a result of misreading and misinterpretation of the Vedas by the priestly class. [cite: 2755, 2759]",
-    "Proposing a return to the pristine Vedic period where all women had political rights and could thus resist Sati. [cite: 2755, 2761]"
+    "Directly blaming the British colonial administration for encouraging the practice.",
+    "Locating the justification for Sati within the inherent flaws of the Varna system.",
+    "Drawing upon the philological work of Max Muller to argue that the practice is a result of misreading and misinterpretation of the Vedas by the priestly class.",
+    "Proposing a return to the pristine Vedic period where all women had political rights and could thus resist Sati."
   ],
   correct: 2
 },
@@ -1270,10 +1270,10 @@ const questions = [
   test: 11,
   question: "On the questions of caste and modernity, which among the following thinkers can be regarded as a bridge between Gandhi and Ambedkar?",
   options: [
-    "Pandita Ramabai [cite: 2766, 2768]",
-    "Jawaharlal Nehru [cite: 2766, 2770]",
-    "Jyotiba Phule [cite: 2766, 2772]",
-    "Ram Manohar Lohia [cite: 2766, 2773]"
+    "Pandita Ramabai",
+    "Jawaharlal Nehru",
+    "Jyotiba Phule",
+    "Ram Manohar Lohia"
   ],
   correct: 3
 },
@@ -1282,10 +1282,10 @@ const questions = [
   test: 11,
   question: "Ramabai connects the degradation in the status of women to the 'degradation of the Hindu nation as such'. This argument is conceptually grounded in:",
   options: [
-    "A Marxist framework focusing on the lack of women's ownership of the means of production. [cite: 2778, 2780]",
-    "A cultural-nationalist claim asserting that national strength is contingent upon the preservation of traditional gender roles. [cite: 2778, 2781]",
-    "The concept of pre-natal influences, arguing that marginalized, ignorant, and unhealthy mothers cannot give birth to healthy children, thereby affecting the progeny and national progress. [cite: 2778, 2784]",
-    "A purely political analysis where women's political disenfranchisement leads to national decline. [cite: 2778, 2786]"
+    "A Marxist framework focusing on the lack of women's ownership of the means of production.",
+    "A cultural-nationalist claim asserting that national strength is contingent upon the preservation of traditional gender roles.",
+    "The concept of pre-natal influences, arguing that marginalized, ignorant, and unhealthy mothers cannot give birth to healthy children, thereby affecting the progeny and national progress.",
+    "A purely political analysis where women's political disenfranchisement leads to national decline."
   ],
   correct: 2
 },
@@ -1294,10 +1294,10 @@ const questions = [
   test: 11,
   question: "According to Meera Kosambi, Ramabai's initial 'Othering' in Maharashtra was less about her conversion to Christianity and more a reaction to her radical feminism, specifically her emphasis on:",
   options: [
-    "Universal literacy. [cite: 2791, 2792]",
-    "Inter-caste marriage. [cite: 2791, 2793]",
-    "Self-reliance for women. [cite: 2791, 2794]",
-    "Vedic revivalism. [cite: 2791, 2796]"
+    "Universal literacy.",
+    "Inter-caste marriage.",
+    "Self-reliance for women.",
+    "Vedic revivalism."
   ],
   correct: 2
 },
@@ -1306,10 +1306,10 @@ const questions = [
   test: 11,
   question: "Ram Manohar Lohia's formulation of a distinct Indian version of socialism is fundamentally predicated on:",
   options: [
-    "A strict adherence to the economic principles of classical Marxism, adapted for Indian agrarian society. [cite: 2800, 2801]",
-    "The total rejection of all political thought originating outside India. [cite: 2800, 2802]",
-    "The belief in an indigenous solution to Indian problems, free from Eurocentric influences like capitalism and communism. [cite: 2800, 2803]",
-    "Advocating for a centralized, Nehruvian model of economic planning combined with Gandhian moral values. [cite: 2800, 2805]"
+    "A strict adherence to the economic principles of classical Marxism, adapted for Indian agrarian society.",
+    "The total rejection of all political thought originating outside India.",
+    "The belief in an indigenous solution to Indian problems, free from Eurocentric influences like capitalism and communism.",
+    "Advocating for a centralized, Nehruvian model of economic planning combined with Gandhian moral values."
   ],
   correct: 2
 },
@@ -1318,10 +1318,10 @@ const questions = [
   test: 11,
   question: "Lohia's critique of both capitalism and communism, viewing them as two faces of modern civilization that have reached a 'dead end', aligns him most closely, in terms of intellectual tradition, with:",
   options: [
-    "A complete political anarchist who rejects all organized systems. [cite: 2810, 2811]",
-    "A fundamentalist advocate for a return to pre-modern religious structures. [cite: 2810, 2813]",
-    "A thinker offering a critique of capitalist modernity, similar to Gandhi's view of modern civilization. [cite: 2810, 2814]",
-    "proponent of the Western liberal democratic framework. [cite: 2810, 2816]"
+    "A complete political anarchist who rejects all organized systems. ",
+    "A fundamentalist advocate for a return to pre-modern religious structures. ",
+    "A thinker offering a critique of capitalist modernity, similar to Gandhi's view of modern civilization.",
+    "proponent of the Western liberal democratic framework."
   ],
   correct: 2
 },
@@ -1330,10 +1330,10 @@ const questions = [
   test: 11,
   question: "Lohia's distinction between a 'side-looking' and a 'forward-looking' worldview is essential to understanding his vision of 'real modernity'. A forward-looking worldview, in this context, implies:",
   options: [
-    "Simple and complete replication of European and US modern civilization. [cite: 2821, 2823]",
-    "Total rejection of all contemporary global intellectual currents. [cite: 2821, 2825]",
-    "Reconstructing the world from scratch by adopting what is suitable or rational from both backwards-looking and side-looking perspectives. [cite: 2821, 2826]",
-    "Focusing solely on developing military and technological superiority over the West. [cite: 2821, 2828]"
+    "Simple and complete replication of European and US modern civilization.",
+    "Total rejection of all contemporary global intellectual currents.",
+    "Reconstructing the world from scratch by adopting what is suitable or rational from both backwards-looking and side-looking perspectives.",
+    "Focusing solely on developing military and technological superiority over the West."
   ],
   correct: 2
 },
@@ -1342,10 +1342,10 @@ const questions = [
   test: 11,
   question: "Read the following two statements and choose the correct option from below- \nStatement-I: Ramabai argued that Indian women had a better status in the past in comparison to her contemporary degradation.\nStatement II: Ramabai explains this degradation in the status of women in terms of the degradation of the Hindu nation.",
   options: [
-    "Only Statement I is correct. [cite: 2833, 2836]",
-    "Only Statement II is correct. [cite: 2833, 2837]",
-    "Both Statement I &ll are correct. [cite: 2833, 2838]",
-    "Neither Statement-I nor Statement-II is correct. [cite: 2833, 2840]"
+    "Only Statement I is correct.",
+    "Only Statement II is correct.",
+    "Both Statement I &ll are correct.",
+    "Neither Statement-I nor Statement-II is correct."
   ],
   correct: 2
 },
@@ -1357,10 +1357,10 @@ const questions = [
   test: 12,
   question: "The major concerns of modern Indian political thinkers included harmonising seemingly antithetical ideals. Which set of concerns best encapsulates the core tensions these thinkers address?",
   options: [
-    "Colonialism and Orientalism; Theory and Thought. [cite: 2850, 2853]",
-    "National unity and religious discord; Individual freedom and social equity; Nationalist ideals and global approach. [cite: 2850, 2854]",
-    "Eurocentric concepts and narrow indigeneity; Swaraj and Religious nationalism. [cite: 2850, 2855]",
-    "Hinduism and Hindutva; Panchamarhi Sapt Kranti and Chaukhambha Raj [cite: 2850, 2856]"
+    "Colonialism and Orientalism; Theory and Thought.",
+    "National unity and religious discord; Individual freedom and social equity; Nationalist ideals and global approach. ",
+    "Eurocentric concepts and narrow indigeneity; Swaraj and Religious nationalism. ",
+    "Hinduism and Hindutva; Panchamarhi Sapt Kranti and Chaukhambha Raj "
   ],
   correct: 1
 },
@@ -1369,10 +1369,10 @@ const questions = [
   test: 12,
   question: "According to Lohia, which set of characteristics were essential for entry into the Indian ruling class?",
   options: [
-    "Land ownership, Political Connections, and Regional Language proficiency. [cite: 2860, 2861]",
-    "High caste, English education, and wealth. [cite: 2860, 2862]",
-    "Membership in the ruling political party, adherence to constitutional principles, and large-scale industrial assets. [cite: 2860, 2864]",
-    "Commitment to socialism, advocacy for decentralization, and anti-Brahmin stance. [cite: 2860, 2865]"
+    "Land ownership, Political Connections, and Regional Language proficiency. ",
+    "High caste, English education, and wealth. ",
+    "Membership in the ruling political party, adherence to constitutional principles, and large-scale industrial assets. ",
+    "Commitment to socialism, advocacy for decentralization, and anti-Brahmin stance. "
   ],
   correct: 1
 },
@@ -1381,10 +1381,10 @@ const questions = [
   test: 12,
   question: "How does Rammanohar Lohia's approach to the caste question differ strategically from that of Periyar, even though they agree on the necessity of caste elimination?",
   options: [
-    "Lohia advocated for mere reform of the caste system, which Periyar rejected. [cite: 2870, 2872]",
-    "Lohia focused exclusively on economic disparities, while Periyar focused on cultural issues. [cite: 2870, 2874]",
-    "Lohia paid greater attention to gender-based oppression, which Periyar largely ignored. [cite: 2870, 2876]",
-    "Lohia opposed violent anti-Brahminism and campaigns against Gandhi, the Constitution, and Hindi, which were associated with some of Periyar's movements. [cite: 2870, 2877]"
+    "Lohia advocated for mere reform of the caste system, which Periyar rejected. ",
+    "Lohia focused exclusively on economic disparities, while Periyar focused on cultural issues. ",
+    "Lohia paid greater attention to gender-based oppression, which Periyar largely ignored. ",
+    "Lohia opposed violent anti-Brahminism and campaigns against Gandhi, the Constitution, and Hindi, which were associated with some of Periyar's movements."
   ],
   correct: 3
 },
@@ -1393,10 +1393,10 @@ const questions = [
   test: 12,
   question: "Lohia's 'Four Pillar State' (Chaukhambha Raj) is a model for decentralized governance. Which pillar, according to him, should share the ownership of property in a manner to prevent its concentration at the highest level?",
   options: [
-    "Only the Village and the Center. [cite: 2882, 2885]",
-    "The Center, The State (Province), The District, and The Village. [cite: 2882, 2886]",
-    "Only the Province and the Center, representing the state government. [cite: 2882, 2888]",
-    "The Legislature, The Executive, The Judiciary, and the Press. [cite: 2882, 2890]"
+    "Only the Village and the Center. ",
+    "The Center, The State (Province), The District, and The Village. ",
+    "Only the Province and the Center, representing the state government.",
+    "The Legislature, The Executive, The Judiciary, and the Press. "
   ],
   correct: 1
 },
@@ -1405,10 +1405,10 @@ const questions = [
   test: 12,
   question: "Read the following two statements and choose the correct option from below- \nStatement I: Lohia was a prominent leader of the 'Angrezi Hatao Movement', and he advocated the replacement of English with the Hindi as the lingua franca of India. \nStatement II: Lohia opposed English not because it was a foreign language but because it was, in the Indian context, a vehicle of inequality and social exclusion.",
   options: [
-    "Only Statement I is correct. [cite: 2895, 2900]",
-    "Only Statement II is correct. [cite: 2895, 2901]",
-    "Both Statements I & II are correct. [cite: 2895, 2902]",
-    "Neither Statement I nor Statement II is correct. [cite: 2895, 2904]"
+    "Only Statement I is correct. ",
+    "Only Statement II is correct. ",
+    "Both Statements I & II are correct. ",
+    "Neither Statement I nor Statement II is correct. "
   ],
   correct: 2
 },
@@ -1417,10 +1417,10 @@ const questions = [
   test: 12,
   question: "Which principle of Lohia's 'Sapt Kranti' (Seven Revolutions) most directly addresses his emphasis on the interlinkages of caste and gender oppression?",
   options: [
-    "Against political, economic and spiritual inequality based on color or race. [cite: 2909, 2912]",
-    "For the destruction of castes. [cite: 2909, 2913]",
-    "For equality between man and woman. [cite: 2909, 2914]",
-    "For economic equality, planned production and against private property. [cite: 2909, 2916]"
+    "Against political, economic and spiritual inequality based on color or race. ",
+    "For the destruction of castes. ",
+    "For equality between man and woman. ",
+    "For economic equality, planned production and against private property. "
   ],
   correct: 2
 },
@@ -1429,10 +1429,10 @@ const questions = [
   test: 12,
   question: "Lohia's critique of contemporary socialism stemmed from his belief that it had derived its economic aims from Communism and its general concerns (democracy, freedom, peace) from Capitalism. What was the central implication of this synthesis, according to him?",
   options: [
-    "Socialism was effectively a perfect, universal ideology requiring no modification. [cite: 2921, 2924]",
-    "Socialism stood for a distinct idea that needed no prefix or suffix, asserting its autonomous conceptualization. [cite: 2921, 2925]",
-    "It led to a strong, centralized state focused solely on economic growth, ignoring social justice. [cite: 2921, 2926]",
-    "It justified the universalization of European historical peculiarities across the Third World. [cite: 2921, 2929]"
+    "Socialism was effectively a perfect, universal ideology requiring no modification. ",
+    "Socialism stood for a distinct idea that needed no prefix or suffix, asserting its autonomous conceptualization. ",
+    "It led to a strong, centralized state focused solely on economic growth, ignoring social justice. ",
+    "It justified the universalization of European historical peculiarities across the Third World. "
   ],
   correct: 1
 },
@@ -1441,10 +1441,10 @@ const questions = [
   test: 12,
   question: "Lohia's critique of the English language was deeply linked to the concept of 'modernity'. He argued that English failed to provide modernity to an Indian because:",
   options: [
-    "It promoted the mother tongue argument which he rejected. [cite: 2934, 2938]",
-    "It led to a dynamic and not dogmatic approach to human involvement. [cite: 2934, 2939]",
-    "It besets him with hypocrisy; it turns an Indian into a bundle of complexes, a man with no human personality, an imitating headless monkey. [cite: 2934, 2940]",
-    "It could not adequately express ideas related to science and technology [cite: 2934, 2942]"
+    "It promoted the mother tongue argument which he rejected. ",
+    "It led to a dynamic and not dogmatic approach to human involvement. ",
+    "It besets him with hypocrisy; it turns an Indian into a bundle of complexes, a man with no human personality, an imitating headless monkey. ",
+    "It could not adequately express ideas related to science and technology "
   ],
   correct: 2
 },
@@ -1453,10 +1453,10 @@ const questions = [
   test: 12,
   question: "What is/are not among the four key areas that Lohia considered important to root out the double oppression of the women of depressed castes?",
   options: [
-    "Re-examination of the institution of marriage and the hypocrisies involved. [cite: 2947, 2948]",
-    "Equality in educational and property rights. [cite: 2947, 2949]",
-    "Preferential treatment in politics and employment. [cite: 2947, 2950]",
-    "Educating women on performing their duties as ideal wives and mothers. [cite: 2947, 2951]"
+    "Re-examination of the institution of marriage and the hypocrisies involved. ",
+    "Equality in educational and property rights. ",
+    "Preferential treatment in politics and employment. ",
+    "Educating women on performing their duties as ideal wives and mothers. "
   ],
   correct: 3
 },
@@ -1465,10 +1465,10 @@ const questions = [
   test: 12,
   question: "The book entitled 'Marx, Gandhi and Socialism' was authored by which of the following political thinkers?",
   options: [
-    "B.R. Ambedkar [cite: 2956, 2957]",
-    "Ram Manohar Lohia [cite: 2956, 2958]",
-    "M.N. Roy [cite: 2956, 2959]",
-    "Jayaprakash Narayan [cite: 2956, 2961]"
+    "B.R. Ambedkar ",
+    "Ram Manohar Lohia ",
+    "M.N. Roy ",
+    "Jayaprakash Narayan"
   ],
   correct: 1
 }
